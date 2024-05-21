@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#one {
+    background-color: red;
+    width: 30rem;
+    height: 25rem;
+    margin: 1rem;
+}
+
+.top_taskbar {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    left: 24.5rem;
+    padding-top: .5rem;
+    width: 30rem;
+    background-color: orange;
+}
