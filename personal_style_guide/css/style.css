@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,63 +11,208 @@
 
 /* Grid start */
 
-.four_boxes {
-    display: flex;
-    /* grid-template-columns: 200px 200px; */
-    /* grid-template-areas: "one  two"
-    " three four" ; */
+#four_boxes {
+    display: grid;
+    grid-template-columns: 850px 1fr 1fr; 
+    grid-template-areas: "one  two"
+    " three four" ;
 }
 
+/* my name and logo */
 #one {
-    background-color: red;
+    background-color:#FBF4EF;
     width: 30rem;
     height: 25rem;
-    margin: 1rem;
+    margin: 2rem;
     grid-area: one;
+    border: 3px solid grey;
+    border-style: inset;
 }
 
 .top_taskbar {
-   height: 1.5rem;
-   width: 30rem;
-   background-color: orange;
+   height: 1.8rem;
+   width: 29.8rem;
+   background-color: #977bd9;
+   border-bottom: 3px solid rgb(179, 175, 175);
+   border-style: inset;
 }
+
+#top_taskbar_mood {
+    width: 49.8rem;
+}
+
+#top_taskbar2_mood {
+    display: flex;
+    gap: .2rem;
+    margin-left: 45.5rem;
+  
+}
+
+
 
 .top_taskbar2 {
     display: flex;
     gap: .2rem;
-    margin-left: 26.5rem;
-  
+    margin-left: 25.5rem;
 }
+
+#top_taskbar2_one {
+    position: relative;
+    bottom: 1.5rem;
+   
+}
+
+/* bottom taskbar */
+
+.bottom_taskbar {
+    background-color: grey;
+    height: 1.5rem;
+    width: 29.7rem;
+    position: relative;
+    top: .5rem;
+}
+
+#bottom_two {
+    position: relative;
+    top: 31.5rem;
+}
+
+#bottom_three {
+    background-color: grey;
+    height: 1.5rem;
+    width: 49.7rem;
+    position: relative;
+    top: 31.5rem;
+}
+
+
+.inset {
+    display: flex;
+    gap: 5px;
+    padding: 3px;
+    border-top: 3px solid rgb(179, 175, 175);
+    border-style: inset;
+}
+
+.spacing {
+    width: 20rem;
+}
+
+#spacing_three {
+    width: 35rem;
+}
+
+.fa-earth-africa {
+    color: rgb(45, 39, 162);
+}
+
+.fa-file {
+    color: white;
+}
+
+
 
 .taskbar_symbol {
     background-color: grey;
-    padding: 1px;
+    padding: .5px;
     margin-top: 2px;
+    border: 3px solid rgb(179, 175, 175);
+    border-style:outset;
 }
 
 /* color palette */
 #two {
-    background-color: red;
+    background-color: rgb(0, 255, 98);
     width: 30rem;
-    height: 25rem;
+    height: 35rem;
     margin: 1rem;
     grid-area: two;
+    position: relative;
+    z-index: 1;
+    border: 3px solid grey;
+    border-style: inset;
 }
 
+/* moodboard */
 #three {
-    background-color: red;
-    width: 30rem;
-    height: 25rem;
+    background-color: rgb(140, 0, 255);
+    width: 50rem;
+    height: 35rem;
     margin: 1rem;
     grid-area: three;
+    position: relative;
+    left: 4rem;
+    bottom: 10rem;
+    z-index: 2;
+    border: 3px solid grey;
+    border-style: inset;
+
 }
 
+/* font pairs */
 #four {
-    background-color: red;
+    background-color: rgb(204, 214, 121);
     width: 30rem;
     height: 25rem;
     margin: 1rem;
     grid-area: four;
+    position: relative;
+    z-index: 1;
+    border: 3px solid grey;
+    border-style: inset;
 }
 
+/* box one code */
+
+#name {
+    font-size: 3rem;
+    font-family: Julius Sans One, Georgia,
+    'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#phillip {
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.browser_title {
+    font-family: Vt323;
+    padding: 2px;
+    font-size: 1.2rem;
+    color: #f7f1f1;
+    text-shadow: 1px 1px black;
+    width: 25rem;
+}
+
+
+
+/* End box one */
+
+
+/* box two */
+
+.color_blocks {
+    width: 2rem;
+    height: 4rem;
+    background-color: orange;
+}
+
+#block_blocks {
+    display: flex;
+}
+
+.block1 {
+    background-color: red;
+}
+
+.block2 {
+    background-color: rgb(81, 43, 43);
+}
+
+/* box two end */
 
