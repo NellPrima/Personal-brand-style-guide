@@ -43,12 +43,17 @@
 #top_taskbar_mood {
     display: flex;
     gap: .2rem;
-    margin-bottom: 8rem;
+    /* margin-bottom: 8rem;  */
     width: 49.8rem;
-    margin-bottom: 55rem; 
+   
+    
 } 
-_taskbar2_mood {
-    margin-right: .3rem;
+
+
+#top_taskbar2_mood{
+    
+    position: relative;
+    right: 60.2rem;
 }
 
 
@@ -92,7 +97,7 @@ _taskbar2_mood {
     height: 1.5rem;
     width: 49.7rem;
     position: relative;
-    top: 31.5rem;
+    
 }
 
 
@@ -145,9 +150,9 @@ _taskbar2_mood {
 
 /* moodboard */
 #three {
-    background-color: rgb(140, 0, 255);
+    background-color: #FBF4EF;
     width: 50rem;
-    height: 35rem;
+    height: 47rem;
     margin: 1rem;
     grid-area: three;
     position: relative;
@@ -256,6 +261,57 @@ _taskbar2_mood {
 /* box two end */
 
 /* box three start */
+#img_container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-areas: "pic4 pic5 pic2"
+    "pic1 pic6 pic3" ;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+
+#img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#pic1 {
+    grid-area: pic1;
+    width: 200px;
+    box-shadow: 6px 4px 8px rgb(41, 38, 38);
+}
+
+#pic2 {
+    grid-area: pic2;
+    width: 200px;
+    box-shadow: 6px 4px 8px rgb(41, 38, 38);
+}
+
+#pic3 {
+    grid-area: pic3;
+    width: 200px;
+    box-shadow: 6px 4px 8px rgb(41, 38, 38);
+}
+
+#pic4 {
+    grid-area: pic4;
+    width: 200px;
+    box-shadow: 6px 4px 8px rgb(41, 38, 38);
+}
+
+#pic5 {
+    grid-area: pic5;
+    width: 200px;
+    box-shadow: 6px 4px 8px rgb(41, 38, 38);
+}
+
+#pic6 {
+    grid-area: pic6;
+    width: 200px;
+    box-shadow: 6px 4px 8px rgb(41, 38, 38);
+}
 
 
 
