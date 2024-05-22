@@ -39,14 +39,20 @@
 
 #top_taskbar_mood {
     width: 49.8rem;
+    background-color: orange;
+    width: 44rem;
+    margin-bottom: 55rem;
 }
 
 #top_taskbar2_mood {
     display: flex;
     gap: .2rem;
-    margin-left: 45.5rem;
-  
+    margin-left: 45rem;
+    width: 30rem;
+   
 }
+
+
 
 
 
@@ -57,6 +63,11 @@
 }
 
 #top_taskbar2_one {
+    position: relative;
+    bottom: 1.5rem;
+}
+
+#top_taskbar2_two {
     position: relative;
     bottom: 1.5rem;
    
@@ -74,7 +85,7 @@
 
 #bottom_two {
     position: relative;
-    top: 31.5rem;
+    top: 3.5rem;
 }
 
 #bottom_three {
@@ -122,7 +133,7 @@
 
 /* color palette */
 #two {
-    background-color: rgb(0, 255, 98);
+    background-color: #ede9e6;
     width: 30rem;
     height: 35rem;
     margin: 1rem;
@@ -186,10 +197,8 @@
     font-size: 1.2rem;
     color: #f7f1f1;
     text-shadow: 1px 1px black;
-    width: 25rem;
+   
 }
-
-
 
 /* End box one */
 
@@ -197,22 +206,57 @@
 /* box two */
 
 .color_blocks {
-    width: 2rem;
-    height: 4rem;
-    background-color: orange;
+    width: 10rem;
+    height: 10rem;
+}
+
+.color_hex{
+    font-family: Raleway, 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    
 }
 
 #block_blocks {
-    display: flex;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: "block" ;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    gap: 2rem;
 }
 
-.block1 {
-    background-color: red;
+#block1 {
+    background-color: #875c74;
+    grid-area: block1;
+    box-shadow: 2px 3px 4px rgb(41, 38, 38);
 }
 
-.block2 {
-    background-color: rgb(81, 43, 43);
+
+#block2 {
+    background-color: #ffc0cb;
+    grid-area: block2;
+    box-shadow: 2px 3px 4px rgb(41, 38, 38);
 }
+
+
+#block3 {
+    background-color: #fbf4ef;
+    grid-area: block3;
+    box-shadow: 2px 3px 4px rgb(41, 38, 38);
+}
+
+#block4 {
+    background-color: #110e0e;
+    grid-area: block4;
+    box-shadow: 2px 3px 4px rgb(41, 38, 38);
+}
+
 
 /* box two end */
 
+/* box three start */
+
+
+/* box three end */
