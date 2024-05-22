@@ -35,21 +35,20 @@
    background-color: #977bd9;
    border-bottom: 3px solid rgb(179, 175, 175);
    border-style: inset;
+ 
 }
+
+
 
 #top_taskbar_mood {
-    width: 49.8rem;
-    background-color: orange;
-    width: 44rem;
-    margin-bottom: 55rem;
-}
-
-#top_taskbar2_mood {
     display: flex;
     gap: .2rem;
-    margin-left: 45rem;
-    width: 30rem;
-   
+    margin-bottom: 8rem;
+    width: 49.8rem;
+    margin-bottom: 55rem; 
+} 
+_taskbar2_mood {
+    margin-right: .3rem;
 }
 
 
@@ -197,7 +196,7 @@
     font-size: 1.2rem;
     color: #f7f1f1;
     text-shadow: 1px 1px black;
-   
+   width:80rem;
 }
 
 /* End box one */
@@ -257,6 +256,10 @@
 /* box two end */
 
 /* box three start */
+
+
+
+
 
 
 /* box three end */
