@@ -100,6 +100,11 @@
     
 }
 
+#bottom_four {
+    position: relative;
+    top: 2.2rem;
+}
+
 
 .inset {
     display: flex;
@@ -177,6 +182,45 @@
     border-style: inset;
 }
 
+#two_fonts {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.julius {
+    font-family: Julius sans one, Georgia, 'Times New Roman', Times, serif;
+    padding: .5rem;
+    text-shadow: 1px 3px #4a7e3c;
+    font-size: 1.8rem;
+    color:  #e4f1df; 
+}
+ 
+
+.julius_title {
+    padding-bottom: 1rem;
+}
+
+.raleway_title {
+    padding-bottom: 1rem;
+}
+
+
+.raleway {
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: .5rem;
+    font-size: 1.2rem;
+   
+}
+
+#lowercase1 {
+    text-transform: lowercase;
+    padding-top: 2rem
+}
+
 /* box one code */
 
 #name {
@@ -201,7 +245,7 @@
     font-size: 1.2rem;
     color: #f7f1f1;
     text-shadow: 1px 1px black;
-   width:80rem;
+   width:25rem;
 }
 
 /* End box one */
@@ -313,9 +357,17 @@
     box-shadow: 6px 4px 8px rgb(41, 38, 38);
 }
 
-
-
-
-
-
 /* box three end */
+
+/* footer */
+
+footer {
+    height: 2.5rem;
+    background-color: grey;
+}
+
+#startbttn {
+    width: 1rem;
+    height: 1.5rem;
+    background-color: orange;
+}
