@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -35,46 +33,41 @@
    background-color: #977bd9;
    border-bottom: 3px solid rgb(179, 175, 175);
    border-style: inset;
- 
 }
-
-
 
 #top_taskbar_mood {
     display: flex;
     gap: .2rem;
-    /* margin-bottom: 8rem;  */
     width: 49.8rem;
-   
-    
-} 
+}  
 
-
-#top_taskbar2_mood{
-    
-    position: relative;
-    right: 60.2rem;
-}
-
-
-
-
-
-.top_taskbar2 {
+ .top_taskbar2 {
     display: flex;
     gap: .2rem;
-    margin-left: 25.5rem;
-}
+}  
 
 #top_taskbar2_one {
     position: relative;
     bottom: 1.5rem;
+    left: 25.5rem;
 }
 
 #top_taskbar2_two {
     position: relative;
     bottom: 1.5rem;
-   
+    left: 25.6rem;
+}
+
+#top_taskbar2_three {
+    position: relative;
+    bottom: 0.1rem;
+    left: 14.5rem;
+}
+
+#top_taskbar2_four {
+    position: relative;
+    bottom: 1.5rem;
+    left: 25.6rem;
 }
 
 /* bottom taskbar */
@@ -105,7 +98,6 @@
     top: 2.2rem;
 }
 
-
 .inset {
     display: flex;
     gap: 5px;
@@ -130,14 +122,13 @@
     color: white;
 }
 
-
-
 .taskbar_symbol {
     background-color: grey;
     padding: .5px;
     margin-top: 2px;
     border: 3px solid rgb(179, 175, 175);
-    border-style:outset;
+    border-style: outset;
+    width: 1.2rem;
 }
 
 /* color palette */
@@ -199,7 +190,6 @@
     color:  #e4f1df; 
 }
  
-
 .julius_title {
     padding-bottom: 1rem;
 }
@@ -208,12 +198,10 @@
     padding-bottom: 1rem;
 }
 
-
 .raleway {
     font-family: Raleway, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: .5rem;
     font-size: 1.2rem;
-   
 }
 
 #lowercase1 {
@@ -245,7 +233,7 @@
     font-size: 1.2rem;
     color: #f7f1f1;
     text-shadow: 1px 1px black;
-    width: 80rem;
+    /* width: 45rem; */
 }
 
 /* End box one */
@@ -263,7 +251,6 @@
     'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     margin-top: 1rem;
-    
 }
 
 #block_blocks {
@@ -364,10 +351,11 @@
 footer {
     height: 2.5rem;
     background-color: grey;
+    width:2rem;
 }
 
 #startbttn {
-    width: 12rem;
+    width: 5rem;
     height: 1.5rem;
     background-color: orange;
 }
