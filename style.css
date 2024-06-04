@@ -415,11 +415,47 @@ footer {
 
 #calander {
     margin-top: 5px;
-    margin-left: 77rem;
+    margin-left: 75rem;
     border: 3px solid grey;
     border-style: inset;
     box-shadow: .2px .2px  #363535;
-    width: 6rem;
-    
+    width: 10rem;
+   
+}
 
+#calendar2 {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+
+}
+
+.fa-envelope {
+    color: #f6f6f6;
+    text-shadow: 1px 1px #1e1c1c;
+}
+
+.fa-chrome {
+    color: #7d51b5;
+    text-shadow: .1px .1px #1e1c1c;
+}
+
+.fa-calendar-days {
+    color: #7d51b5;
+    text-shadow: 1px 1px #1e1c1c;
+    padding-left: .2rem;
+}
+
+.fa-volume-high {
+    color: #7d51b5;
+    text-shadow: 1px 1px #1e1c1c;
+    padding-left: .2rem;
+}
+
+#clock ul {
+    display: flex;
+    list-style: none;
+  
+    
+    
 }
