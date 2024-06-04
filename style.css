@@ -414,21 +414,21 @@ footer {
 }
 
 #calander {
-    margin-top: 5px;
+     margin-top: 5px;
     margin-left: 75rem;
     border: 3px solid grey;
     border-style: inset;
     box-shadow: .2px .2px  #363535;
-    width: 10rem;
+    width: 8rem; 
+    display: flex;
    
 }
 
-#calendar2 {
+#calander2 {
     display: flex;
-    gap: 12px;
-    flex-direction: row;
-
+    gap: .5rem;
 }
+
 
 .fa-envelope {
     color: #f6f6f6;
@@ -455,7 +455,15 @@ footer {
 #clock ul {
     display: flex;
     list-style: none;
-  
-    
-    
+    gap: 2px;
+}
+
+#clock ul li {
+    color: #f5eded;
+    text-shadow: 2px 1.5px black;
+    font-family: Vt323;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+
+
 }
