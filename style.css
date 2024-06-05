@@ -17,7 +17,7 @@ body {
 
 #four_boxes {
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
     flex-wrap: wrap;
     
     
@@ -151,10 +151,11 @@ body {
     width: 30rem;
     height: 35rem;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     border: 3px solid grey;
     border-style: inset;
     margin: 1rem;
+    
 }
 
 /* moodboard */
@@ -167,7 +168,7 @@ body {
     position: relative;
     left: 4rem;
     bottom: 10rem;
-    z-index: 2;
+    z-index: 1;
     border: 3px solid grey;
     border-style: inset;
 
@@ -464,6 +465,8 @@ footer {
     font-family: Vt323;
     font-size: 1.1rem;
     margin-bottom: 2px;
-
-
 }
+
+
+
+
